@@ -6,3 +6,5 @@ pyvenv.cfg
 models
 share
 video
+pitch_estimation
+segmented
