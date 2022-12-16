@@ -331,7 +331,7 @@ def run():
         notation_results.append(NotationTablature(note, region_list[min_i].name))
 
     # Classifier
-    model_path = "../models/note_classifier_model.h5"
+    model_path = "../model/note_classifier_model.h5"
 
     try:
         model = load_model(model_path)

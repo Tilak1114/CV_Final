@@ -3,7 +3,7 @@ bin
 lib
 pyvenv.cfg
 .idea
-models
+model
 share
 video
 pitch_estimation

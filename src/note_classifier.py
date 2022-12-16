@@ -64,7 +64,7 @@ def train_classifier():
     callback = tf.keras.callbacks.EarlyStopping(monitor='loss', patience=3)
 
     model.fit(train_data,
-              epochs=10,
+              epochs=3,
               callbacks=[callback],
               verbose=1,
               validation_data=val_data)
